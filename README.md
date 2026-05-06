@@ -326,7 +326,6 @@ bugbounty-v1.0/
 
 ## 📚 References & Inspiration
 
-- [Syed Abuthahir — Bug Bounty Automation with Python](https://github.com/abuvanth)
 - [ProjectDiscovery Tools](https://github.com/projectdiscovery)
 - [SecLists](https://github.com/danielmiessler/SecLists)
 - [Awesome Shodan Queries](https://github.com/jakejarvis/awesome-shodan-queries)
