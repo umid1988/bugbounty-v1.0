@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# BB Pro runtime fayllar
+bb_output/
+.pipeline_state.json
+.shodan_usage.json
+bug_bounty.log
+*.log
+
+# Config (API kalitlar bor)
+# config.json ni uncommit qiling agar API key bo'lsa
+# config.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

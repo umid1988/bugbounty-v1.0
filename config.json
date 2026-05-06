@@ -1,0 +1,30 @@
+{
+  "shodan_api_key": "",
+  "threads": 20,
+  "timeout": 8,
+  "retries": 2,
+  "output_dir": "bb_output",
+  "wordlist_dir": "wordlists",
+  "scope_domains": [
+    "example.com"
+  ],
+  "scope_wildcards": [
+    "example.com"
+  ],
+  "tools": {
+    "subfinder": "subfinder",
+    "httpx": "httpx",
+    "nuclei": "nuclei",
+    "amass": "amass",
+    "dnsx": "dnsx"
+  },
+  "rate": {
+    "shodan_requests_per_month": 100,
+    "shodan_used": 0,
+    "requests_per_second": 2.0,
+    "shodan_delay_seconds": 1.0
+  },
+  "continue_on_error": true,
+  "report_md": true,
+  "report_json": true
+}
